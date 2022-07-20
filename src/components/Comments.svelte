@@ -1,4 +1,5 @@
 
+<!--
 <div class="container">
     <hr/>
         <div class="form-todo form-group">
@@ -13,8 +14,12 @@
   
         <div class="list-group">
             <div class="list-group-item" v-for="(comment, index) in allComments" v-bind:key="index">
-                    <span class="comment__author"><strong>Autor: {{comment.name}}</strong></span>
-                    <p>Comentário: {{comment.message}}</p>
+                    <div class="autor">
+                      Autor: {{comment.name}}
+                    </div>
+                    <div class="comment">
+                      Comentárioaa: {{comment.message}}
+                    </div>
                 <div>
                     <a href="#" title="Excluir" v-on:click.prevent="removeComment(index)">Excluir</a>
                 </div> 
@@ -65,3 +70,5 @@
     }
     
     </script>
+
+   -->

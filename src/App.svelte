@@ -36,7 +36,7 @@ const handleAdd = (e) =>
 
 <div id="app">
     
-    <h1>Vamos lá</h1>
+    <h1 align="center">COMENTÁRIOS EM SVELTE</h1>
      <Tab {activeTab}{tabs} on:tabChange={tabChange}/>
      {#if activeTab === 'Comentários'}
         <div>
@@ -49,6 +49,8 @@ const handleAdd = (e) =>
 <style>
     .app
     {
+        align-items: center;
+        text-align: center;
         background-color: #444;
     }
 
